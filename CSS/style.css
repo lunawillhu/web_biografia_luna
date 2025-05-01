@@ -5,6 +5,7 @@ body{
     padding: 0%;
     box-sizing: border-box;
 }
+
 /* Selector por etiqueta header */
 header{
     display: flex;
@@ -12,4 +13,9 @@ header{
     align-items: center;
     background-color: #F0E6EF;
     padding: 10px 20px;
+}
+
+/* Selector combinado descendente */
+header .Logo img{
+    height: 50px;
 }
