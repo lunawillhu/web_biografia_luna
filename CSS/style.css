@@ -8,14 +8,21 @@ body{
 
 /* Selector por etiqueta header */
 header{
+    border:2px solid;
+    background-color: #957cba;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #957cba;
-    padding: 10px 20px;
 }
 
-/* Selector combinado descendente */
-header .Logo img{
+div#Logo{
     height: 50px;
+    width: 50px;
+}
+
+div#Bio{
+    border: 2px;
+    padding: 10px;
+    border-color:#213761 ;
 }
