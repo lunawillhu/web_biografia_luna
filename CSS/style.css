@@ -8,21 +8,31 @@ body{
 
 /* Selector por etiqueta header */
 header{
+    margin: 5px;
     border:2px solid;
-    background-color: #957cba;
-    padding: 10px 20px;
+    background-color: #c3bbcf;
+    padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
-div#Logo{
-    height: 50px;
-    width: 50px;
-}
+div#snoopy{
+    margin: 10px;
+    border:2px solid;
+    background-color: #c3bbcf;
+    padding: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}   
 
 div#Bio{
-    border: 2px;
+    margin: 5px;
+    border: 2px solid #000000;
+    p{
+        color: #B8BDDE;
+    }
+    background-color: #213761;
     padding: 10px;
-    border-color:#213761 ;
 }
