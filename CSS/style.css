@@ -9,19 +9,19 @@ body{
 /* Selector por etiqueta header */
 header{
     margin: 5px;
-    border:2px solid;
-    background-color: #c3bbcf;
+    border:2px;
+    background-color: #4e5aa7;
     padding: 10px;
-    display: flex;
+    display: flexbox;
     justify-content: space-around;
     align-items: center;
 }
 
 div#snoopy{
     margin: 10px;
-    border:2px solid;
-    background-color: #c3bbcf;
-    padding: 1px;
+    border:2px;
+    background-color: #4e5aa7;
+    padding: 2px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,10 +29,13 @@ div#snoopy{
 
 div#Bio{
     margin: 5px;
-    border: 2px solid #000000;
+    border: 2px;
+    padding: 10px;
     p{
         color: #B8BDDE;
     }
+}
+
+html{
     background-color: #213761;
-    padding: 10px;
 }
