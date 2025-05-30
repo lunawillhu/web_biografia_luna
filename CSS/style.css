@@ -1,7 +1,7 @@
 /* Selector por etiqueta */
 body{
-    background-color: #889bbe;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,26 +9,22 @@ body{
 
 /* Selector por etiqueta header */
 header{
-    margin: 5px;
-    border: solid #4d5270 ;
-    border-radius:500px 500px;
-    background-color: #3c468a;
-    padding: 10px;
+    background-color: #222855;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    padding: 5px 10px;
+    color: #7480ca;
 }
 
-div#snoopy{
-    margin: 10px;
-    border: solid #4d5270 ;
-    border-radius:100px 100px;
-    background-color: #3c468a;
-    padding: 0.05px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}   
+div.ventana{
+      background-color: #0e0c22;
+      border: 2px solid #2f314f;
+      width: 800px;
+      margin: auto;
+      padding: 10px;
+      box-shadow: 0 0 20px #483f77;
+}
 
 main{
     background-color: #3c468a;
