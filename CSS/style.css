@@ -27,9 +27,49 @@ div.top{
     color: #7480ca;
 }
 
-header{
-    
+header {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
 }
+header p,h2{
+    color:#B8BDDE;
+}
+header img.lunabebe{
+    height: 100px;
+    width: 180px;
+    object-fit: cover;
+    border: 3px solid #483f77;
+}
+
+div.Info{
+    flex-grow: 1;
+}
+
+div.links{
+    text-align: right;
+}
+
+div.boton{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+div.boton button{
+    background-color: #222855;
+    color:#B8BDDE;
+    border: 5px 10px;
+    cursor: pointer;
+}
+
+div.Galeria{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+}
+
 
 main{
     background-color: #3c468a;
@@ -38,9 +78,7 @@ main{
     border-top: 3px;
     border-radius: 50px 50px;
     padding: 30px;
-    p{
-        color: #B8BDDE;
-    }
+    color: #B8BDDE;
 }
 
 
