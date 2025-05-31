@@ -1,21 +1,122 @@
 /* Selector por etiqueta */
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     box-sizing: border-box;
 }
 
 /* Selector por etiqueta header */
-header{
+
+div.ventana{
+    background-color: #0e0c22;
+    border: 2px solid #2f314f;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 0 20px #483f77;
+}
+
+div.top{
+    background-color: #222855;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #957cba;
-    padding: 10px 20px;
+    padding: 5px 10px;
+    color: #7480ca;
 }
 
-/* Selector combinado descendente */
-header .Logo img{
-    height: 50px;
+header {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+header p,h2{
+    color:#B8BDDE;
+}
+header img.lunabebe{
+    height: 100px;
+    width: 180px;
+    object-fit: cover;
+    border: 3px solid #483f77;
+}
+
+div.Info{
+    flex-grow: 1;
+}
+
+div.links{
+    text-align: right;
+}
+
+div.boton{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+div.boton button{
+    background-color: #222855;
+    color:#B8BDDE;
+    border: 5px 10px;
+    cursor: pointer;
+}
+
+div.Galeria{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+div.Galeria img {
+  width: 100%;
+  border: 1px solid #332f4f;
+}
+
+div.canciones{
+    margin-top: 10px;
+}
+
+div.canciones ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+div.canciones li {
+    background-color: #1f1c2c;
+    border: 1px solid #3b2f4f;
+    margin-bottom: 6px;
+    padding: 6px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+a,p,li{
+    color:#B8BDDE;
+}
+
+div.canciones desc,time{
+    color: #7480ca;
+}
+
+div.caja{
+    border: 1px solid #3b2f4f;
+    background-color: #1f1c2c;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+div.titulo-caja{
+    font-weight: bold;
+    color: #7480ca;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
 }
