@@ -70,25 +70,48 @@ div.Galeria{
     margin-top: 10px;
 }
 
-
-main{
-    background-color: #3c468a;
-    margin: 10px;
-    border: solid #4d5270 ;
-    border-top: 3px;
-    border-radius: 50px 50px;
-    padding: 30px;
-    color: #B8BDDE;
+div.Galeria img {
+  width: 100%;
+  border: 1px solid #332f4f;
 }
 
+div.canciones{
+    margin-top: 10px;
+}
 
-a{
+div.canciones ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+div.canciones li {
+    background-color: #1f1c2c;
+    border: 1px solid #3b2f4f;
+    margin-bottom: 6px;
+    padding: 6px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+a,p,li{
     color:#B8BDDE;
 }
 
-aside{
-    border-radius: 30px 30px;
-    margin: 2px;
-    padding: 30px;
-    display: inline;
+div.canciones desc,time{
+    color: #7480ca;
+}
+
+div.caja{
+    border: 1px solid #3b2f4f;
+    background-color: #1f1c2c;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+div.titulo-caja{
+    font-weight: bold;
+    color: #7480ca;
+    margin-bottom: 5px;
 }
