@@ -1,1 +1,1 @@
-Este trabajo contiene una breve biografia sobre mi, contiene imagenes, gifs y videos.
+Este trabajo contiene una breve biografía sobre mí y las cosas que me gustan. Investigué CSS para que mi pagina quede a mi gusto, fue mi parte favorita del trabajo. Entiendo las etiquetas y atributos que usé y el docente no explicó.
